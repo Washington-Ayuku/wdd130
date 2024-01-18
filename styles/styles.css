@@ -39,3 +39,26 @@ aside {
     text-align: center;
 }
 
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+main img {
+    width: 150px;
+    height: auto;
+    
+}
+
+p { padding: o;}
+
+footer {
+    margin-top: 15px
+    boarder-top: 1px solid #000;
+    text-align: center;
+    
+}
+
+
+
+
