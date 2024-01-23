@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=DM+Serif+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Frank+Ruhl+Libre:wght@300..900&display=swap');
 
 :root {
     --primary-color: #3c15b1;
@@ -6,13 +6,13 @@
     --accent1-color: #aa1b1b;
     --accent2-color: #a84194;
 
-    --heading-font: "DM Serif Display", serif;
-    --paragraph-font: "Cormorant Garamond", serif;
+    --heading-font: "Abril Fatface", serif;
+    --paragraph-font: "Frank Ruhl Libre", serif;
 
-    --nav-background-color: #a84194;
-    --nav-link-color: #3c15b1;
-    --nav-hover-link-color: #a84194;
-    --nav-hover-background-color: #3c15b1;
+    --nav-background-color: #30811a;
+    --nav-link-color: #a84194;
+    --nav-hover-link-color: #30811a;
+    --nav-hover-background-color: #a84194;
 }
 
 body {
