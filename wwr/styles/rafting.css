@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Frank+Ruhl+Libre:wght@300..900&display=swap');
+
+:root {
+    --primary-color: #3c15b1;
+    --secondary-color: #30811a;
+    --accent1-color: #aa1b1b;
+    --accent2-color: #a84194;
+
+    --heading-font: "Abril Fatface", serif;
+    --paragraph-font: "Frank Ruhl Libre", serif;
+
+    --nav-background-color: #30811a;
+    --nav-link-color: #a84194;
+    --nav-hover-link-color: #30811a;
+    --nav-hover-background-color: #a84194;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+
+.hero img {
+    display: blocks;
+    width: 100;
+    height: auto;
+}
