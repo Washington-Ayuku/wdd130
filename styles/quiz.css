@@ -13,12 +13,13 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.quiz-form label {
+label {
     display: block;
     margin-bottom: 10px;
+    color: #fff;
 }
 
-.quiz-form input[type="text"] {
+input {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
@@ -26,7 +27,7 @@ body {
     border-radius: 5px;
 }
 
-.quiz-form button[type="submit"] {
+button {
     background-color: #007bff;
     color: #fff;
     border: none;
@@ -36,11 +37,16 @@ body {
     transition: background-color 0.3s ease;
 }
 
-.quiz-form button[type="submit"]:hover {
+button:hover {
     background-color: #0056b3;
 }
 
 h1 {
     text-align: center;
     color: #0056b3;
+}
+
+.question {
+    margin: 1em 0;
+    padding: 0 10px;
 }
