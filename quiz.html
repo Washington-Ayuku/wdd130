@@ -1,14 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Page Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Quiz</title>
+    <link rel="stylesheet" href="styles/quiz.css">
 </head>
 <body>
+    <h1>HTML and CSS Quiz</h1>
 
-<h1>Basic HTML and CSS Quiz</h1>
-<p>1. What does the acronym css stand for?</p>
-<p>2. How are id and class atttribute selected in css?</p>
-<p>3. Which of the following is a valid css comment?</p>
-<p>4. What is the botom margin given  this declaration?</p>
+    <form id="quizForm">
+        <!-- Question 1: Fill in the blank -->
+        <div class="question">
+            <label for="q1">1. What does the acronym CSS stand for?</label>
+            <input type="text" id="q1" name="q1" required>
+        </div>
+
+        <!-- Question 2: Short answer -->
+        <div class="question">
+            <label for="q2">2. How are id and class attributes selected in CSS?</label>
+            <textarea id="q2" name="q2" rows="4" required></textarea>
+        </div>
+
+        <!-- Question 3: Dropdown -->
+        <div class="question">
+            <label for="q3">3. Which of the following is a valid CSS comment?</label>
+            <select id="q3" name="q3" required>
+                <option value="" selected disabled>Choose One ...</option>
+                <option value="div">&lt;div&gt;</option>
+                <option value="span">&lt;span&gt;</option>
+                <option value="section">&lt;section&gt;</option>
+                <option value="anchor">&lt;anchor&gt;</option>
+            </select>
+        </div>
+
+        <!-- Question 4: Integer answer -->
+        <div class="question">
+            <label for="q4">4. What is the bottom margin given this declaration?</label>
+            <input type="number" id="q4" name="q4" min="1" max="6" Required>
+        </div>
+
+        <!-- Submit button -->
+        <button type="submit">Submit Quiz</button>
+    </form>
 </body>
 </html>
