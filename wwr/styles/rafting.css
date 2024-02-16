@@ -1,71 +1,92 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Frank+Ruhl+Libre:wght@300..900&display=swap');
-
-:root {
-    --primary-color: #3c15b1;
-    --secondary-color: #30811a;
-    --accent1-color: #aa1b1b;
-    --accent2-color: #a84194;
-
-    --heading-font: "Abril Fatface", serif;
-    --paragraph-font: "Frank Ruhl Libre", serif;
-
-    --nav-background-color: #30811a;
-    --nav-link-color: #a84194;
-    --nav-hover-link-color: #30811a;
-    --nav-hover-background-color: #a84194;
+.header {
+    display: grid;
+    grid-template-columns: auto 1fr; /* Adjust as needed */
+    align-items: center;
 }
 
-header {
-	margin: 1rem auto;
-	display: grid;
-	grid-template-columns: 120px 1fr 2fr;
-	align-items: center;
-	border-bottom: 1px solid #ccc;
-	max-width: 1000px;
+.logo {
+    max-width: 200px; /* Adjust as needed */
+    height: auto;
 }
 
-.logo img {
-	margin: 0 0.25rem 0 1rem;
-	width: 64px;
-	height: auto;
+.nav {
+    display: flex;
+    justify-content: flex-end;
 }
 
-h1 {
-	font-size: 2rem;
-	color: #a84194;
-	font-family: Acme, Arial, sans-serif;
+.nav ul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 10px;
 }
 
-h2 {
-	color: #3c15b1;
+.nav ul li {
+    display: inline;
+    margin-right: 20px; /* Adjust as needed */
 }
 
-p {
-	color: brown;
+.nav ul li:first-child {
+    margin-left: 0;
 }
 
-nav {
-	text-align: right;
+.history-section {
+    /* Apply your desired styling using Flexbox or CSS Grid */
+    /* Example Flexbox styling */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.navigation {
-	display: flex;
-	list-style: none;
+.adventures-section 
+    /* Apply your desired styling */
+
+
+.adventures-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Adjust columns as needed */
+    grid-gap: 20px; /* Adjust gap as needed */
 }
 
-.navigation li {
-	flex: 1 1 100%;
+.adventures-grid figure {
+    /* Apply styling to figure element */
+    text-align: center;
 }
 
-.navigation a {
-	display: block;
-	color: navy;
-	padding: 20px;
-	text-decoration: none;
+.adventures-grid img {
+    /* Apply styling to images */
+    max-width: 100%;
 }
 
-.navigation a:hover {
-	color: tomato;
-	font-weight: 700;
-	text-decoration: underline;
-}
+.adventures-grid figcaption 
+    /* Apply styling to captions */
+
+	
+	
+	.footer 
+		/* Apply your desired styling */
+	
+	
+	.social-icons {
+		display: flex;
+		justify-content: flex-end;
+	}
+	
+	.social-icons img {
+		max-width: 40px; /* Adjust size as needed */
+		margin-Right: 10px; /* Adjust spacing as needed */
+	}
+
+	h1 {
+		color: blue;
+	}
+
+	h2 {
+		color: purple;
+	}
+
+	p {
+		color: green;
+	}
+
+
+	
